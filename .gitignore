@@ -16,7 +16,6 @@ angular2-infinite-scroll.js
 *.map
 *.d.ts
 !make.js
-!bundles/*.js
 
 #################
 ## JetBrains
@@ -53,12 +52,11 @@ src/ngFactory
 
 $ cat .gitignore
 /node_modules
-/dist
 /documentation
 
 *.log
 *.tgz
 
 npm-debug.*
-examples/ 
+examples/
 package-lock.json
